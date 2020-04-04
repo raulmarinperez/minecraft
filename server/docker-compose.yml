@@ -9,7 +9,7 @@ services:
     - "4771:4771"
     volumes:
     - ${MINECRAFTSRV_PATH}/etc:/opt/minecraft/config
-    - ${MINECRAFTSRV_PATH}/lib/plugins:/opt/minecraft/plugins
+    - ${MINECRAFTSRV_PATH}/plugins:/opt/minecraft/plugins
     - ${MINECRAFTSRV_PATH}/data/spigot/worlds:/opt/minecraft/worlds
     - ${MINECRAFTSRV_PATH}/data/spigot/data:/opt/minecraft/data
     - ${MINECRAFTSRV_PATH}/log:/opt/minecraft/logs
